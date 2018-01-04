@@ -52,9 +52,10 @@ div #navegador {
   display: flex;
   margin: 0 auto;
   width: 90%;
-  height: 500px;
+  height: 300px;
   color: white;
   background-color: #d5c75f;
+  border: 1px
 }
 
 .bloqueIzq{
@@ -65,10 +66,17 @@ div #navegador {
 .luciernagas{
   position: relative;
   width: 40%;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 3px 5px 10px 3px #82c3a6;
+  border: 2px solid black;
+  transition: rotate 5s;
+  -webkit-transition: rotate 2s;
 }
 
+.luciernagas:hover{
+	transform: rotate(10deg);
+}
 .bloqueMed{
   position: relative;
   width: 10%;
@@ -77,8 +85,15 @@ div #navegador {
 .pescando{
   position: relative;
   width: 40%;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 3px 5px 10px 3px #82c3a6;
+  border: 2px solid black;
+  transition: translate 1s;
+  -webkit-transition: translate 1s;
+}
+.pescando:hover{
+  transform: translate(20px, -5px);
 }
 
 .bloqueDer{
