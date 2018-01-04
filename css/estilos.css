@@ -70,8 +70,8 @@ div #navegador {
   margin-bottom: 30px;
   box-shadow: 3px 5px 10px 3px #82c3a6;
   border: 2px solid black;
-  transition: rotate 5s;
-  -webkit-transition: rotate 2s;
+  transition: transform 1s;
+  -webkit-transition: transform 1s;
 }
 
 .luciernagas:hover{
@@ -89,8 +89,8 @@ div #navegador {
   margin-bottom: 30px;
   box-shadow: 3px 5px 10px 3px #82c3a6;
   border: 2px solid black;
-  transition: translate 1s;
-  -webkit-transition: translate 1s;
+  transition: transform 1s;
+  -webkit-transition: transform 1s;
 }
 .pescando:hover{
   transform: translate(20px, -5px);
@@ -99,4 +99,12 @@ div #navegador {
 .bloqueDer{
   position: relative;
   width: 5%;
+}
+
+footer{
+  background: #C6d5c5;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  border-radius:
 }
