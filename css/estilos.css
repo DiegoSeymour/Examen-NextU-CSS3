@@ -47,8 +47,9 @@ div #navegador {
   width: 50%;
   position: relative;
   left: 25%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 2px 2px #02010a;
 }
 
 #Imagenes_Bajas {
@@ -71,8 +72,7 @@ div #navegador {
   width: 40%;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 3px 5px 10px 3px #82c3a6;
-  border: 2px solid black;
+  box-shadow: 2px 2px 2px 2px #02010a;
   transition: transform 1s;
   -webkit-transition: transform 1s;
 }
@@ -90,8 +90,7 @@ div #navegador {
   width: 40%;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 3px 5px 10px 3px #82c3a6;
-  border: 2px solid black;
+  box-shadow: 2px 2px 2px 2px #02010a;
   transition: transform 1s;
   -webkit-transition: transform 1s;
 }
@@ -179,8 +178,9 @@ div #navegador {
   width: 70%;
   position: relative;
   left: 15%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 2px 2px #02010a;
 }
 
 #Imagenes_Bajas {
@@ -205,7 +205,7 @@ div #navegador {
   width: 70%;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 3px 5px 10px 3px #82c3a6;
+  box-shadow: 2px 2px 2px 2px #02010a;
   border: 2px solid black;
   transition: transform 1s;
   -webkit-transition: transform 1s;
@@ -225,7 +225,7 @@ div #navegador {
   width: 70%;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 3px 5px 10px 3px #82c3a6;
+  box-shadow: 2px 2px 2px 2px #02010a;
   border: 2px solid black;
   transition: transform 1s;
   -webkit-transition: transform 1s;
