@@ -1,0 +1,177 @@
+body {
+  font-family: Dancing Script;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: rebote 1s;
+}
+
+@keyframes rebote {
+  	0% {
+  		margin-top: 100%;
+  	}
+  	60% {
+  		margin-top: -10%;
+  	}
+  	100% {
+  		margin-top: 0%;
+  	}
+}
+
+@media (min-width: 900px) {
+
+header {
+  margin: 0 auto;
+  width: 90%;
+  height: 100px;
+  color: white;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+header > h1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+  text-shadow: 2px 2px #02010a;
+}
+
+div #navegador {
+  margin-top: 40px;
+  margin-right: 30px;
+  float: right;
+  word-spacing: 10px;
+  font-size: 20px;
+}
+
+.link_paisajes {
+  text-decoration: none;
+}
+
+#galeria{
+background-color: #d5c75f;
+width: 90%;
+height: 500px;
+margin: 0 auto;
+}
+
+.imagen1{
+  margin: 0 auto;
+  width: 25%
+}
+.imagen2{
+  width: 25%
+}
+.imagen3{
+  width: 25%
+}
+.imagen4{
+  width: 25%
+}
+.imagen5{
+  width: 25%
+}
+.imagen6{
+  width: 25%
+}
+
+footer{
+  display: flex;
+  background: #C6d5c5;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 0px 0px 10px 10px;
+}
+.iconos_redes{
+  width: 20%;
+}
+
+#Primera_Columna{
+  padding: 20px;
+  width: 25%;
+}
+
+#Segunda_Columna{
+  padding: 20px;
+  width: 25%
+}
+
+#Tercera_Columna{
+  padding: 20px;
+  width: 25%
+}
+
+
+#Cuarta_Columna{
+  padding: 20px;
+  width: 25%
+  }
+}
+
+@media (max-width: 900px) {
+
+header {
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  color: white;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-flow: column;
+}
+
+header > h1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  text-shadow: 2px 2px #02010a;
+  text-align: center;
+}
+
+div #navegador {
+  margin-top: 40px;
+  margin-right: 30px;
+  word-spacing: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.link_index {
+  text-decoration: none;
+}
+
+footer{
+  display: flex;
+  background: #C6d5c5;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 0px 0px 10px 10px;
+}
+.iconos_redes{
+  width: 20%;
+}
+
+#Primera_Columna{
+  padding: 20px;
+  width: 25%;
+}
+
+#Segunda_Columna{
+  padding: 20px;
+  width: 25%
+}
+
+#Tercera_Columna{
+  padding: 20px;
+  width: 25%
+}
+
+
+#Cuarta_Columna{
+  padding: 20px;
+  width: 25%
+}
+
+}
