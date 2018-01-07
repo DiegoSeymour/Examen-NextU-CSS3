@@ -103,6 +103,7 @@ div #navegador {
   height: 300px;
   color: white;
   background-color: #d5c75f;
+  position: relative;
 }
 
 .foto_4 {
