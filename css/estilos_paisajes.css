@@ -51,18 +51,18 @@ div #navegador {
   text-decoration: none;
 }
 
+
 #galeria_alta {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
   width: 90%;
-  height: 300px;
   color: white;
   background-color: #d5c75f;
 }
 
 .foto_1 {
-  display: flex;
+  flex: 1 1 auto;
   width: 30%;
   margin: 30px;
 }
@@ -73,7 +73,7 @@ div #navegador {
 }
 
 .foto_2 {
-  display: flex;
+  flex: 1 1 auto;
   width: 30%;
   margin: 30px;
 }
@@ -84,10 +84,9 @@ div #navegador {
 }
 
 .foto_3 {
-  display: flex;
+  flex: 1 1 auto;
   width: 30%;
   margin: 30px;
-  background-color: red;
 }
 .foto_3 img{
   width: 100%;
@@ -100,14 +99,13 @@ div #navegador {
   flex-direction: row;
   margin: 0 auto;
   width: 90%;
-  height: 300px;
   color: white;
   background-color: #d5c75f;
   position: relative;
 }
 
 .foto_4 {
-  display: flex;
+  flex: 1 1 auto;
   width: 30%;
   margin: 30px;
 }
@@ -118,7 +116,7 @@ div #navegador {
 }
 
 .foto_5 {
-  display: flex;
+  flex: 1 1 auto;
   width: 30%;
   margin: 30px;
 }
@@ -127,10 +125,9 @@ div #navegador {
 }
 
 .foto_6 {
-  display: flex;
+  flex: 1 1 auto;
   width: 30%;
   margin: 30px;
-  background-color: red;
 }
 .foto_6 img{
   width: 100%;
