@@ -46,36 +46,98 @@ div #navegador {
   font-size: 20px;
 }
 
+
 .link_paisajes {
   text-decoration: none;
 }
 
-#galeria{
-background-color: #d5c75f;
-width: 90%;
-height: 500px;
-margin: 0 auto;
+#galeria_alta {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+  height: 300px;
+  color: white;
+  background-color: #d5c75f;
 }
 
-.imagen1{
+.foto_1 {
+  display: flex;
+  width: 30%;
+  margin: 30px;
+}
+.foto_1 img{
+  width: 100%;
+  -webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+
+.foto_2 {
+  display: flex;
+  width: 30%;
+  margin: 30px;
+}
+.foto_2 img{
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.foto_3 {
+  display: flex;
+  width: 30%;
+  margin: 30px;
+  background-color: red;
+}
+.foto_3 img{
+  width: 100%;
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+#galeria_baja {
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
-  width: 25%
+  width: 90%;
+  height: 300px;
+  color: white;
+  background-color: #d5c75f;
 }
-.imagen2{
-  width: 25%
+
+.foto_4 {
+  display: flex;
+  width: 30%;
+  margin: 30px;
 }
-.imagen3{
-  width: 25%
+.foto_4 img{
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-.imagen4{
-  width: 25%
+
+.foto_5 {
+  display: flex;
+  width: 30%;
+  margin: 30px;
 }
-.imagen5{
-  width: 25%
+.foto_5 img{
+  width: 100%;
 }
-.imagen6{
-  width: 25%
+
+.foto_6 {
+  display: flex;
+  width: 30%;
+  margin: 30px;
+  background-color: red;
 }
+.foto_6 img{
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
 
 footer{
   display: flex;
