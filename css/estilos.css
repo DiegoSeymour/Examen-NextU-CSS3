@@ -69,38 +69,31 @@ div #navegador {
   display: flex;
   margin: 0 auto;
   width: 90%;
-  height: 400px;
   color: white;
   background-color: #d5c75f;
-  border: 1px
-}
-
-.bloqueIzq{
-  position: relative;
-  width: 33.3%;
+  border: 1px;
+  justify-content: space-around;
 }
 
 .luciernagas{
   position: relative;
-  width: 400px;
+  width: 30%;
+  height: 30%;
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 2px 2px 2px 2px #02010a;
   transition: transform 1s;
   -webkit-transition: transform 1s;
 }
-
 .luciernagas:hover{
 	transform: rotate(10deg);
 }
-.bloqueMed{
-  position: relative;
-  width: 33.3%;
-}
+
 
 .pescando{
   position: relative;
-  width: 400px;
+  width: 30%;
+  height: 30%;
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 2px 2px 2px 2px #02010a;
@@ -111,10 +104,6 @@ div #navegador {
   transform: translate(20px, -5px);
 }
 
-.bloqueDer{
-  position: relative;
-  width: 33.3%;
-}
 
 footer{
   display: flex;
@@ -154,7 +143,7 @@ footer{
 header {
   margin: 0 auto;
   width: 90%;
-  height: 20%;
+  height: 10%;
   color: white;
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -181,7 +170,7 @@ div #navegador {
 #ImagenCentral {
   background-color: #82c3a6;
   width: 90%;
-  height: 30%;
+  height: 20%;
   margin: 0 auto;
 }
 
@@ -255,6 +244,7 @@ footer{
   flex-direction: column;
   background: #C6d5c5;
   width: 90%;
+  height: 30%;
   margin: 0 auto;
   border-radius: 0px 0px 10px 10px;
   align-items: center;
