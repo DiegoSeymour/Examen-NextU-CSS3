@@ -129,12 +129,12 @@ footer{
 
 #Primera_Columna{
   padding: 20px;
-  width: 25%;
+  width: 100%;
 }
 
 #Segunda_Columna{
   padding: 20px;
-  width: 25%
+  width: 100%
 }
 
 #Tercera_Columna{
@@ -154,7 +154,7 @@ footer{
 header {
   margin: 0 auto;
   width: 90%;
-  height: 200px;
+  height: 20%;
   color: white;
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -163,18 +163,15 @@ header {
 }
 
 header > h1 {
-  margin-top: 30px;
-  margin-left: 30px;
   text-shadow: 2px 2px #02010a;
   text-align: center;
 }
 
 div #navegador {
-  margin-top: 40px;
-  margin-right: 30px;
   word-spacing: 10px;
   font-size: 20px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .link_index {
@@ -184,6 +181,7 @@ div #navegador {
 #ImagenCentral {
   background-color: #82c3a6;
   width: 90%;
+  height: 30%;
   margin: 0 auto;
 }
 
@@ -254,34 +252,36 @@ div #navegador {
 
 footer{
   display: flex;
+  flex-direction: column;
   background: #C6d5c5;
   width: 90%;
   margin: 0 auto;
   border-radius: 0px 0px 10px 10px;
+  align-items: center;
 }
 .iconos_redes{
-  width: 20%;
+  width: 10%;
 }
 
 #Primera_Columna{
-  padding: 20px;
-  width: 25%;
+  text-align: center;
+  width: 100%;
 }
 
 #Segunda_Columna{
-  padding: 20px;
-  width: 25%
+  text-align: center;
+  width: 100%;
 }
 
 #Tercera_Columna{
-  padding: 20px;
-  width: 25%
+  text-align: center;
+  width: 100%;
 }
 
 
 #Cuarta_Columna{
-  padding: 20px;
-  width: 25%
+  text-align: center;
+  width: 100%;
 }
 
 }
