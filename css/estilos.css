@@ -107,33 +107,31 @@ div #navegador {
 
 footer{
   display: flex;
+  flex-direction: row;
   background: #C6d5c5;
   width: 90%;
   margin: 0 auto;
   border-radius: 0px 0px 10px 10px;
+  text-align: center;
 }
 .iconos_redes{
   width: 20%;
 }
 
 #Primera_Columna{
-  padding: 20px;
-  width: 100%;
+  width: 25%;
 }
 
 #Segunda_Columna{
-  padding: 20px;
-  width: 100%
+  width: 25%
 }
 
 #Tercera_Columna{
-  padding: 20px;
   width: 25%
 }
 
 
 #Cuarta_Columna{
-  padding: 20px;
   width: 25%
   }
 }
